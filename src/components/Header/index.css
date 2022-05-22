@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trigger-button {
+  background-color: transparent;
+  border: none;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.list-style {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.link-style {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto';
+}
